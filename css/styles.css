@@ -1,0 +1,52 @@
+/* font-family: 'Comfortaa', cursive; */
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap");
+
+body {
+   font-family: "Comfortaa", cursive;
+   background: linear-gradient(to right, #ffffff, #ffffff);
+}
+.container {
+   text-align: center;
+   max-width: 1200px;
+   margin: 0 auto;
+}
+.h1,
+.h2 {
+   margin-top: 200px;
+   animation: colorchange 5s infinite alternate;
+}
+
+.click-btn {
+   color: #212529;
+   background-color: #f8f9fa;
+   border: 1px solid #f8f9fa;
+   padding: 0.375rem 0.75rem;
+   line-height: 1.5;
+   font-size: 1rem;
+   cursor: pointer;
+   border-radius: 3px;
+}
+.click-btn:focus {
+   box-shadow: 0 0 0 0.2rem rgb(216 217 219 / 50%);
+}
+
+@keyframes colorchange {
+   0% {
+      color: #ffffff;
+   }
+   20% {
+      color: #cccccc;
+   }
+   40% {
+      color: #999999;
+   }
+   60% {
+      color: #666666;
+   }
+   80% {
+      color: #333333;
+   }
+   100% {
+      color: #ffffff;
+   }
+}
